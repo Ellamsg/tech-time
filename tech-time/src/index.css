@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.fit{
+
+  @apply  object-contain
+}
+.sub-head{
+  @apply text-[32px] font-semibold;
+}
+.icons-flex{
+  @apply  flex bg-red p-3 w-[232px] gap-3 text-left justify-center;
+}
+.icon{
+  @apply bg-blue w-[32px] text-center p-2;
+}
+
+.box{
+  @apply w-[277px] p-3 bg-green h-[260px];
+}
+.bold-txt{
+  @apply text-[16px] text-red;
+}
+.texts{
+  @apply border-yellow border-2 text-left;
+}
+.box p{
+  @apply leading-[28px]
+}
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  background-color: #004DB3;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
