@@ -19,6 +19,32 @@
    font-family: 'Clash Display';
    font-weight: 700;
 }
+.heading2{
+  font-family: 'Clash Display';
+  font-weight: 700;
+  color: white;
+}
+.img-card{
+  @apply flex pt-4 gap-3;
+}
+.pad{
+  @apply rounded-[24px] text-[#A1A1A1] bg-[#ffffff] ;
+}
+.card{
+  @apply text-left h-[276px] rounded-4xl bg-[#F8F9FC] py-4;
+}
+.courses-card{
+  background: rgba(30, 93, 206, 0.2);
+
+}
+
+.slick-dots li.slick-active button:before {
+  color: #004DB3;
+  font-size: 10px;
+ }
+.heading{
+  @apply text-[#000F24];
+}
 .fit{
 
   @apply w-[100px] lg:w-[200px] object-contain;
@@ -36,15 +62,25 @@
  @apply bg-white text-oceanblue p-2 px-4;
 }
 .heading{
- @apply text-[56px] pt-4  tracking-tighter leading-[70px] ;
+ @apply lg:text-[56px] pt-4 text-[24px] lg:text-left text-center  lg:leading-[70px] ;
 }
 .icon{
-  @apply  w-[32px] text-center p-2;
+  @apply w-[29px]  lg:w-[32px] text-center p-1 lg:p-2;
 }
 .icon-1{
   background: rgba(63, 169, 106, 0.2);
 
 
+}
+.classes-bx{
+  @apply lg:w-[48px] lg:h-[48px] my-2 w-[32px];
+} 
+.box-txt{
+ @apply lg:text-[13px] text-[8px];
+}
+
+.icons-flex{
+  @apply rounded-[10px]
 }
 .icon-2{
   
@@ -60,19 +96,22 @@ background: rgba(247, 158, 142, 0.2);
 
 }
 .courses-flex{
-  @apply grid lg:grid-cols-3 gap-3 lg:p-6 grid-cols-2 bg-[#F8F9FC] ;
+  @apply grid lg:grid-cols-3  gap-3 lg:p-6 px-2 grid-cols-2 bg-[#F8F9FC] ;
 }
 .box{
-  @apply w-[277px] p-3 bg-green h-[260px];
+  @apply w-[277px] p-3  bg-[#ffffff] h-[230px] lg:h-[260px];
 }
 .bold-txt{
   @apply text-[16px] text-red;
 }
 .texts{
-  @apply text-[#000F24] font-bold text-left;
+  @apply text-[#000F24] pt-[10px] lg:pt-0 text-[8px] lg:text-[16px] font-bold text-left;
+}
+.texts1{
+  @apply text-[#000F24] pt-[10px] lg:pt-0 text-[12px] lg:text-[16px] font-bold text-left;
 }
 .box p{
-  @apply leading-[28px]
+  @apply lg:leading-[28px] leading-[20px];
 }
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
