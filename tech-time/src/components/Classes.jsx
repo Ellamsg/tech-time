@@ -5,7 +5,7 @@ export default function Classes() {
    
       <div className="flex-items  bg-[#F8F9FC] flex gap-5 flex-col md:flex-row text-left  justify-center">
         <div className="div-1">
-          <div className="text-[56px] tracking-tighter leading-[70px]">
+          <div className="heading">
             <h1>This is why we are the bes</h1>
             <h1>from others</h1>
           </div>
@@ -19,13 +19,13 @@ export default function Classes() {
           </div>
         </div>
         <div className="div-1 ">
-          <div className="flex gap-3 justify-center justify-items-center py-3">
+          <div className="flex gap-3 justify-center justify-items-center pt-[100px] py-3">
           <div className="box 1">
             <div className="icon">
             <img src="images/.png"/>
             </div>
             <p className="bold-txt">get on get pn get</p>
-            <p className="text-[13px] ">
+            <p className="text-[13px] grey">
               Lorem ipsum dolor sit amet consectetur adipisicing 
               te mporibus reprehenderit illo harum ab dolor ibus 
               id, nesciunt totam, perferen oluptates enim? Corporis,
@@ -37,7 +37,7 @@ export default function Classes() {
             <img src="images/.png"/>
             </div>
             <p className="bold-txt">get on get pn get</p>
-            <p className="text-[13px]">
+            <p className="text-[13px] grey">
               Lorem ipsum dolor sit amet consectetur adipisicin
               tem poribus reprehenderit illo harum ab dolori
               id, nesciunt totam, perferen oluptates enim? Corporis,
@@ -51,7 +51,7 @@ export default function Classes() {
                 <img src="images/.png"/>
             </div>
             <p>get on get pn get</p>
-            <p className="text-[13px]">
+            <p className="text-[13px] grey">
               Lorem ipsum dolor sit amet consectetur adipisici
               tem poribus reprehenderit illo harum ab dolori
               id, nesciunt totam, perferen oluptates enim? Corporis,
@@ -63,7 +63,7 @@ export default function Classes() {
                 <img src="images/.png"/>
             </div>
             <p>get on get pn get</p>
-            <p className="text-[13px]">
+            <p className="text-[13px] grey">
               Lorem ipsum dolor sit amet consectetur adipisic
               tem poribus reprehenderit illo harum ab 
               id, nesciunt totam, perferen oluptates enim? Corporis,

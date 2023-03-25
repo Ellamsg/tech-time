@@ -6,8 +6,8 @@ export default function Community() {
       <div className=" text-center text-white p-4 px-5">
        <p >join our community</p>
        <div className="connect text-[72px]">
-       <p>Are you ready to connect with the future </p>
-       <p>talent of the tech world</p>
+       <h1 className="heading">Are you ready to connect with the future </h1>
+       <h1 className="heading">talent of the tech world</h1>
        </div>
       <p>make up yoyur world and he said no</p>
          <div className="img  flex justify-center">

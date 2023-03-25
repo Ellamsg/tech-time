@@ -7,13 +7,13 @@ export default function Nav() {
     { name: "Help", link: "Help" },
     { name: "Blog", link: "" },
     { name: "Landing", link: "" },
-    { name: "Landing", link: "" },
+   
   ];
   let [open, setOpen] = useState(false);
   return (
-    <div className="p-2 px-6">
+    <div className="md:p-2 md:px-6">
         
-      <div className="bg-red sticky   top-0 left-0 md:p-0  lg:text-xl text-xl md:text-base">
+      <div className=" sticky s  top-0 left-0 md:p-0  lg:text-xl text-xl text-[16px]">
         <div className="md:flex items-center md:py-4 justify-between lg:gap-6  ">
           <div className="md:pl-0 pl-2 text-white">
             <img src="images/techtime.png" />
@@ -32,7 +32,7 @@ export default function Nav() {
           </div>
 
           <ul
-            className={`md:flex md:items-center bg-black justify lg:gap-[70px] text-white  
+            className={`md:flex md:items-center md:bg-transparent bg-black w-full justify-end  text-white  
          absolute md:static md:z-auto z-[-1] 
         left-0   transition-all duration-500 
         ease-in ${open ? "top-0 " : "top-[-490px]"}`}
@@ -45,9 +45,12 @@ export default function Nav() {
                       {link.name}
                     </Link>
                   </li>
+                 
                 </div>
+                
               ))}
             </div>
+            <button className="bg-red  enroll">enroll</button>
            
           </ul>
         </div>

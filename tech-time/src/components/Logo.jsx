@@ -9,7 +9,7 @@ export default function Logo(){
     return (
 
     <div className="logo  bg-[#CCDBF0] px-8">
-     <div className='flex justify-center md:gap-6'>
+     <div className='flex justify-center md:gap-5'>
         <img className='fit' src='images/zoom.png '/>
         <img className='fit' src='images/stripe.png'/>
         <img className='fit' src='images/monday1.png'/>
