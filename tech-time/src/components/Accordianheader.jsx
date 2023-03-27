@@ -15,7 +15,7 @@ export default function Accordianheader() {
         </div>
 
         <div className="text-left ">
-          <h1 className="text-[24px] text-oceanblue font-bold text-left">
+          <h1 className="lg:text-[24px] text-[14px] text-oceanblue font-bold text-left">
             is there a free trial
           </h1>
           <div className="grey py-4">

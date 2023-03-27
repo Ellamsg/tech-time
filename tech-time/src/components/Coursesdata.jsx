@@ -1,7 +1,7 @@
 export default [
    
     {
-        title: "Introduction to user research in ux",
+        title: "introduction to user research in ux design",
         location: "2345km away",
         googleMapsUrl: "https://goo.gl/maps/1DGM5WrWnATgkSNB8",
         startDate: "12 Jan, 2021",
@@ -12,7 +12,7 @@ export default [
 
     },
     {
-        title: "Introduction to user researcjh in ux",
+        title: "introduction to  new marketing audience ",
         location: "2345km away",
         googleMapsUrl: "https://goo.gl/maps/1DGM5WrWnATgkSNB8",
         startDate: "12 Jan, 2021",
@@ -22,7 +22,7 @@ export default [
         nameImg : "images/circle2.png"
     },
     {
-        title: "Introduction to user researcjh in ux",
+        title: "introduction to html, css and bootstrap",
         location: "2345km away",
         googleMapsUrl: "https://goo.gl/maps/1DGM5WrWnATgkSNB8",
         startDate: "12 Jan, 2021",
@@ -32,7 +32,7 @@ export default [
         nameImg : "images/circle3.png"
     },
     {
-        title: "Introduction to user researcjh in ux",
+        title: "introduction to javascript, git & GitHub",
         location: "2345km away",
         googleMapsUrl: "https://goo.gl/maps/1DGM5WrWnATgkSNB8",
         startDate: "12 Jan, 2021",
@@ -42,7 +42,7 @@ export default [
         nameImg : "images/circle4.png"
     },
     {
-        title: "Introduction to user researcjh in ux",
+        title: "introduction to outroom  marketing analysis",
         location: "2345km away",
         googleMapsUrl: "https://goo.gl/maps/1DGM5WrWnATgkSNB8",
         startDate: "12 Jan, 2021",
@@ -52,7 +52,7 @@ export default [
         nameImg : "images/circle5.png"
     },
     {
-        title: "Introduction to user researcjh in ux",
+        title: "introduction to live  marketing analysis",
         location: "2345km away",
         googleMapsUrl: "https://goo.gl/maps/1DGM5WrWnATgkSNB8",
         startDate: "12 Jan, 2021",

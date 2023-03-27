@@ -5,15 +5,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
- .satoshi{
+ .satoshi,.footer-text,.grey-txt{
   font-family: 'Satoshi', sans-serif;
+
   
  }
- .grey{
-  @apply text-[#A1A1A1]
+ .social-icon{
+  @apply lg:w-[32px] lg:h-[31px]
  }
- .clash{
+ .grey{
+  @apply text-[#A1A1A1] lg:text-[16px] text-[8px] md:text-[11px]
+ }
+ .clash, .sub-head,.courses-text{
   font-family: 'Clash Display';
+ }
+ .footer-text{
+  @apply font-extra-light
  }
 .heading{
    font-family: 'Clash Display';
@@ -26,6 +33,10 @@
 }
 .img-card{
   @apply flex pt-4 gap-3;
+}
+.view-courses{
+
+  @apply px-4 my-4 p-2 rounded-[2px] bg-oceanblue text-white;
 }
 .pad{
   @apply rounded-[24px] text-[#A1A1A1] bg-[#ffffff] ;
@@ -45,12 +56,16 @@
 .heading{
   @apply text-[#000F24];
 }
+.footer-text{
+  @apply leading-[32px]
+}
 .fit{
 
   @apply w-[100px] lg:w-[200px] object-contain;
 }
+
 .sub-head{
-  @apply text-[32px] font-semibold;
+  @apply lg:text-[24px] text-[white] py-3 font-semibold;
 }
 .icons-flex{
   @apply  flex satoshi bg-[#FFFFFF] p-3 gap-3 text-left justify-center;
@@ -59,13 +74,13 @@
   @apply flex border-b-2 border-black ;
 }
 .enroll{
- @apply bg-white text-oceanblue p-2 px-4;
+ @apply bg-white text-oceanblue rounded-[4px] p-2 px-4;
 }
 .heading{
- @apply lg:text-[56px] pt-4 text-[24px] lg:text-left text-center  lg:leading-[70px] ;
+ @apply lg:text-[56px] pt-4 md:text-[38px] text-[24px] lg:text-left text-center  lg:leading-[70px] ;
 }
 .icon{
-  @apply w-[29px]  lg:w-[32px] text-center p-1 lg:p-2;
+  @apply w-[38px] rounded-[4px] lg:h-[48px]  h-[32px] lg:w-[32px] text-center p-1 lg:p-2;
 }
 .icon-1{
   background: rgba(63, 169, 106, 0.2);
@@ -76,7 +91,7 @@
   @apply lg:w-[48px] lg:h-[48px] my-2 w-[32px];
 } 
 .box-txt{
- @apply lg:text-[13px] text-[8px];
+ @apply lg:text-[13px] md:text-[11px] text-[8px] ;
 }
 
 .icons-flex{
@@ -86,7 +101,7 @@
 
 
 .frequently-asked{
-  @apply bg-white px-4 lg:px-[132px]
+  @apply bg-white px-4 py-5 lg:px-[132px]
 }
 .icon-2{
   
@@ -105,13 +120,13 @@ background: rgba(247, 158, 142, 0.2);
   @apply grid lg:grid-cols-3  gap-3 lg:p-6 px-2 grid-cols-2 bg-[#F8F9FC] ;
 }
 .box{
-  @apply w-[277px] p-3  bg-[#ffffff] h-[230px] lg:h-[260px];
+  @apply w-[277px] p-3   bg-[#ffffff] md:h-[260] h-[220px] lg:h-[260px];
 }
 .bold-txt{
   @apply text-[16px] text-red;
 }
 .texts{
-  @apply text-[#000F24] pt-[10px] lg:pt-0 text-[8px] lg:text-[16px] font-bold text-left;
+  @apply text-[#000F24] pt-[10px] lg:pt-0 md:text-[10px] text-[8px] lg:text-[16px] font-bold text-left;
 }
 .texts1{
   @apply text-[#000F24] pt-[10px] lg:pt-0 text-[12px] lg:text-[16px] font-bold text-left;

@@ -10,7 +10,7 @@ export default function Landingpage(){
 
     <div className="flex text-white lg:px-6 lg:text-left  lg:flex-row  justify-between flex-col">
       <div className="left pt-5 lg:pt-[150px]">
-     <div className=' text-white heading2 lg:w-[600px]  lg:text-[56px] text-[32px] md:text-[70px] leading-[50px] md:leading-[82px] '>
+     <div className=' text-white heading2 lg:w-[600px]  lg:text-[56px] text-[32px] md:text-[40px] leading-[50px] md:leading-[82px] '>
        <p>Grow your skill to </p> 
        <p>advance your career</p> 
         <p>path</p>
@@ -20,7 +20,7 @@ export default function Landingpage(){
             <p>Online tutoring platform in the world </p>
         </div>
           <div className="buttons satoshi py-3 lg:justify-start justify-center flex gap-3">
-            <button className='border-white gap-3 flex border-2 p-2 px-4'>
+            <button className='border-white rounded-[4px] gap-3 flex border-2 p-2 px-4'>
               <p>get started</p>
               <img className='mt-[5px]' src='images/arrows.png'/>
             

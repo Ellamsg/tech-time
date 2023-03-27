@@ -1,4 +1,4 @@
-export default function Frequentlyasked() {
+export default function Frequentlyasked(props) {
   return (
   
 
@@ -15,8 +15,8 @@ export default function Frequentlyasked() {
             flex  flex-col
             "
           >
-            <h1 className="text-left font-bold text-[24px] py-3 text-[#000F24]">
-              can i change my plan later
+            <h1 className="text-left font-bold text-[14px] lg:text-[24px] py-3 text-[#000F24]">
+              {props.question}
             </h1>
           </div>
           <div
@@ -36,7 +36,7 @@ export default function Frequentlyasked() {
           >
             <div className="grey text-left ">
               
-                <p>Light mode</p>
+                <p>{props.answer}</p>
               
             </div>
         

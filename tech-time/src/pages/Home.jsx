@@ -2,8 +2,7 @@ import React from "react";
 import Classes from "../components/Classes";
 import Clients from "../components/Clients";
 import Community from "../components/Community";
-import Courses from "../components/Courses";
-import Coursesdata from "../components/Coursesdata";
+
 import Frequentlyasked from "../components/Frequentlyasked";
 import Landingpage from "../components/Landingpage";
 import Logo from "../components/Logo";
@@ -18,9 +17,7 @@ export default function Home() {
     return <Frequentlyasked {...item1} />;
   });
 
-  const newData = Coursesdata.map((item1) => {
-    return <Courses {...item1} />;
-  });
+  
 
   return (
     <div className="home">
@@ -29,7 +26,7 @@ export default function Home() {
       <Videoclasses/>
       <Classes />
       <Clients />
-      <div className="courses-flex">{newData}</div>
+     
       <Slide />
       <Community />
       

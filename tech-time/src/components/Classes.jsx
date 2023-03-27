@@ -3,16 +3,14 @@ import React from "react";
 export default function Classes() {
   return (
    
-      <div className="flex-items  bg-[#F8F9FC] flex lg:gap-5 flex-col lg:flex-row text-left  justify-center">
+      <div className="flex-items lg:px-6 bg-[#F8F9FC] flex lg:gap-5 flex-col lg:flex-row text-left  justify-center">
         <div className="div-1">
-          <div className="heading ">
-            <h1>This is why we are the bes</h1>
-            <h1>from others</h1>
+          <div className="heading lg:px-0 px-1">
+          <p>This Is Why We Are Best From Others</p>
           </div>
-          <div className="mt-3   lg:text-left text-center grey mb-3">
-            <p>fghjgmnkjnjkgm gmbnbgm jhn hgjhmhjg</p>
-            <p>fbvmgngm,,mnfkjmdfv,ng n hdnkgmd,mbkfmb,dmb</p>
-            <p>ggggg</p>
+          <div className="mt-3 lg:w-[87%] lg:p-0 px-[45px] lg:text-left text-center grey mb-3">
+          High-Defination Video Is Video Of Higher Resolution And Quality Than Standard Definition. While There’s No 
+          Standard Meaning For High Definition, Generally Any Standard Video Image
           </div>
           <div  className="flex justify-center lg:justify-start">
             <img className="w-[610px] lg:p-0 p-3 " src="images/splash2.png" />
@@ -24,25 +22,21 @@ export default function Classes() {
             <div className="icon classes-bx bg-[#4C7FBD]">
             <img src="images/education.png"/>
             </div>
-            <p className="texts1">get on get pn get</p>
+            <p className="texts1">Experienced Mentors</p>
             
             <p className=" box-txt  grey">
-              Lorem ipsum dolor sit amet consectetur adipisicing 
-              te mporibus reprehenderit illo harum ab dolor ibus 
-              id, nesciunt totam, perferen oluptates enim? Corporis,
-              perspiciatis.
+            high-defination video is video of higher resolution and quality than standard definition. high-defination video is video of 
+            higher resolution and quality than standard definition. 
             </p>
           </div>
           <div className="box 2 ">
             <div className="icon classes-bx bg-[#AECD5E]">
             <img src="images/time.png"/>
             </div>
-            <p className="texts1 ">get on get pn get</p>
+            <p className="texts1 ">One-On-One Meetings</p>
             <p className="box-txt grey">
-              Lorem ipsum dolor sit amet consectetur adipisicin
-              tem poribus reprehenderit illo harum ab dolori
-              id, nesciunt totam, perferen oluptates enim? Corporis,
-              perspiciatis.
+            high-defination video is video of higher resolution and quality than standard definition. high-defination video is video of 
+            higher resolution and quality than standard definition. 
             </p>
           </div>
           </div>
@@ -51,24 +45,20 @@ export default function Classes() {
             <div className="icon classes-bx bg-[#ED6BA6] ">
                 <img src="images/groups.png"/>
             </div>
-            <p className="texts1">get on get pn get</p>
+            <p className="texts1">One-On-one Meetings</p>
             <p className="box-txt grey">
-              Lorem ipsum dolor sit amet consectetur adipisici
-              tem poribus reprehenderit illo harum ab dolori
-              id, nesciunt totam, perferen oluptates enim? Corporis,
-              perspiciatis.
+            high-defination video is video of higher resolution and quality than standard definition. high-defination video is video of 
+            higher resolution and quality than standard definition. 
             </p>
           </div>
           <div className="box 4">
             <div className="icon classes-bx bg-[#EA6B45]">
                 <img  src="images/dollar.png"/>
             </div>
-            <p className="texts1">get on get pn get</p>
+            <p className="texts1">Affordable Prices</p>
             <p className="box-txt grey">
-              Lorem ipsum dolor sit amet consectetur adipisic
-              tem poribus reprehenderit illo harum ab 
-              id, nesciunt totam, perferen oluptates enim? Corporis,
-              perspiciatis.
+            high-defination video is video of higher resolution and quality than standard definition. high-defination video is video of 
+            higher resolution and quality than standard definition. 
             </p>
           </div>
           </div>
