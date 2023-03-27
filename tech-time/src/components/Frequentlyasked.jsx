@@ -1,64 +1,47 @@
+export default function Frequentlyasked() {
+  return (
+  
 
-export default function Frequentlyasked(props){
+        <div className="relative w[400px]  overflow-hidden ">
+          <input
+            type="checkbox"
+            className="absolute peer top-0  inset-x-0 
+               w-full h-[55px] opacity-0 
+                z-10 cursor-pointer
+              "
+          />
+          <div
+            className=" py-2 gap-2 border-t-2 border-[#EAEAEA]  w-full 
+            flex  flex-col
+            "
+          >
+            <h1 className="text-left font-bold text-[24px] py-3 text-[#000F24]">
+              can i change my plan later
+            </h1>
+          </div>
+          <div
+            className="absolute  top-2 right-3
+            text-white transition-transform duration-500
+            rotate-0 peer-checked:rotate-180 
+            "
+          >
+            <p className="text-[#000F24] py-3 text-[24px] font-bold">+</p>
+          </div>
 
-   
-    return (
-
-    <div className=" ">
-      <div>
-        <h1 className="heading">Frequently aske question</h1>
-        <p>gfnfnbg fgmbb mmsg shnf jhadlkafl jlFE fbjb</p>
-        <p> fygj fjbhcn  fbhjkfkmbcvk  fjkhkjnk nknfjk</p>
-      </div>
-      <div className="text-left">
-        <h1>this is a heading</h1>
-        <p> Lorem ipsum dolor sitbcaecati! Perspiciatis iatae asperiores 
-            sapiente mollitia dicta dolore! Tempore, corrupti fugiat?</p>
-      </div>
-      <div className="questions">
-               <div className="question">
-                <div>
-                <p>can you change plan?</p>
-                </div>
-                <div className="div">
-                    +
-                </div>
+          <div
+            className="  overflow-hidden 
+            transition-all duration-500 max-h-0
+            peer-checked:max-h-9
+            "
+          >
+            <div className="grey text-left ">
               
-               </div>
-               <div className="question">
-               <div>
-                <p>can you change plan?</p>
-                </div>
-                <div className="div">
-                    +
-                </div>
-               </div>
-               <div className="question">
-               <div>
-                <p>can you change plan?</p>
-                </div>
-                <div className="div">
-                    +
-                </div>
-               </div>
-               <div className="question">
-               <div>
-                <p>can you change plan?</p>
-                </div>
-                <div className="div">
-                    +
-                </div>
-               </div>
-               <div className="question">
-               <div>
-                <p>can you change plan?</p>
-                </div>
-                <div className="div">
-                    +
-                </div>
-               </div>
-
+                <p>Light mode</p>
+              
+            </div>
+        
+    
       </div>
     </div>
-    )
+  );
 }

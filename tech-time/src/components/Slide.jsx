@@ -47,7 +47,7 @@ export default function Slide() {
   return (
     <div className="bg-[#F8F9FC]  py-6">
       <div className="text-center">
-        <h1 className="heading">what ouer client say</h1>
+        <h1 className="heading flex justify-center lg:text-[56px] text-black text-center">what ouer client say</h1>
         <p className="grey">hdgjgfjnmg fhbgsmbb gjmbbm gjhmgnm fvfgkjnf b fnbmgmmngv b</p>
         <p className="grey">hdgjgfjnmg fhbgsmbb fhbmmgvknm gjmbbm gjb</p>
       </div>

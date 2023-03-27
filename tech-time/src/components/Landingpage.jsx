@@ -10,7 +10,7 @@ export default function Landingpage(){
 
     <div className="flex text-white lg:px-6 lg:text-left  lg:flex-row  justify-between flex-col">
       <div className="left pt-5 lg:pt-[150px]">
-     <div className=' text-white heading2  lg:text-[56px] text-[32px] md:text-[70px] leading-[50px] md:leading-[82px] '>
+     <div className=' text-white heading2 lg:w-[600px]  lg:text-[56px] text-[32px] md:text-[70px] leading-[50px] md:leading-[82px] '>
        <p>Grow your skill to </p> 
        <p>advance your career</p> 
         <p>path</p>
@@ -38,8 +38,8 @@ export default function Landingpage(){
               </div>
           </div>
       </div>
-      <div className="right">
-        <img className='' src='images/career.png' alt='career'/>
+      <div className="right flex justify-center">
+        <img className=' lg:w-[675px] h-full' src='images/career.png' alt='career'/>
       </div>
         
     </div>

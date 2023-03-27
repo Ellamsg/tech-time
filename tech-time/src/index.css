@@ -82,6 +82,12 @@
 .icons-flex{
   @apply rounded-[10px]
 }
+
+
+
+.frequently-asked{
+  @apply bg-white px-4 lg:px-[132px]
+}
 .icon-2{
   
 background: rgba(247, 158, 142, 0.2);

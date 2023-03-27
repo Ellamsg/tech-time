@@ -6,11 +6,11 @@ export default function Videoclasses(){
    
     return (
    
-    <div className="lg:p-4  flex lg:flex-row gap-[100px]     flex-col bg-[#F8F9FC]   justify-center ">
+    <div className="lg:p-4 lg:pl-[40px]  flex lg:flex-row gap-[10px]  relative   flex-col bg-[#F8F9FC] lg:justify-start  justify-center ">
         
-     <div className='text-left lg:pl-5  border-red border-2 relative '>
+     <div className='text-left lg:pl-5    relative '>
      <img className="absolute w-[40px] lg:w-[43px] left-0" src="images/crown.png "/>
-        <div className="heading lg:w-[680px]    ">
+        <div className="heading lg:w-[680px] ">
             <p>High quality video,audio & live classes</p>
         </div>
         <div className="satoshi lg:text-left text-center grey">
@@ -54,9 +54,15 @@ export default function Videoclasses(){
         </div>
      </div>
 
-     <div className="  border-red border-2 flex justify-center relative">
-        <div className="">
-        <img className=" lg:h-[430px] h-[300px]  " src="images/splash1.png"/>
+     <div className=" flex justify-center  right-[110px] lg:absolute">
+        <div className="relative">
+        <img className=" lg:h-[480px] h-[300px]  " src="images/absolute.png"/>
+        <div className="bg-white rounded-[10px] absolute lg:top-[120px] top-[70px] left-[50px] py-1 px-3">
+            <p className="lg:text-12px text-[6px]">255k+ enrolled student</p>
+        <img className=" lg:w-[157px] lg:h-[44px] h-[16px]" src="images/rows.png"/>
+        </div>
+        
+
         </div>  
            
      </div>

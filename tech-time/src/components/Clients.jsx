@@ -9,10 +9,10 @@ export default function Clients(){
     return (
 
     <div className=" bg-[#F8F9FC] p-3 py-6">
-     <div className="div flex justify-center">
+     <div className="div flex justify-center ">
       <h1 className="heading"> Browse our popular courses</h1>
      </div>
-     <div className="div lg:text-left text-center grey">
+     <div className="div  text-center grey">
         <p>Lorem ipsum dolootam in ducimus corrupti tempora. Cum corrupti mollitia modi earum voluptas?</p>
         <p>Lorem ipsum dolootam in ducimus corrupti tempora. Cum corrupti mollitia modi earum voluptas?</p>
      </div>

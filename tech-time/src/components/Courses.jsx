@@ -5,7 +5,7 @@ export default function Courses(props){
     return (
 
     <div className=" ">
-      <div className="courses border-2 rounded-[16px]  border-black bg-[#FFFFFF] p-1 lg:p-3">
+      <div className="courses rounded-[16px]  bg-[#FFFFFF] p-1 lg:p-3">
         <div className="courses-img">
             <img src={props.imageUrl}/>
         </div>
