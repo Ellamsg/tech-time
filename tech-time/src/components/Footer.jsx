@@ -10,8 +10,8 @@ export default function Footer(){
    
     return (
 
-    <div className="footer grid pt-[90px] pb-[240px] md:grid-cols-2 lg:grid-cols-4 grid-cols-1  justify-between p-6 bg-[#000F24] text-white text-left">
-       <div className="foot1 pb-2">
+    <div className="footer grid pt-[90px] pb-[240px] md:grid-cols-2 lg:grid-cols-4 grid-cols-1  justify-between p-3 lg:p-6 bg-[#000F24] text-white text-left">
+       <div className="foot1 pb-2  ">
          <img className="py-2" src="images/techtime.png"/>
          <p className="lg:text-[16px] lg:w-[280px]">Reach out to us on any of our social media networks</p>
          <div className="flex gap-3 pt-3 flex-row">
@@ -22,7 +22,7 @@ export default function Footer(){
            <img className="social-icon" src="images/discord.png"/>
          </div>
        </div>
-        <div className="foot2">
+        <div className="foot2 ">
           <h1 className="sub-head lg:text-[24px]">Useful Links</h1>
           <div className="footer-text">
           <p>Home</p>
@@ -33,7 +33,7 @@ export default function Footer(){
           </div>
         
         </div>
-        <div className="foot3">
+        <div className="foot3  ">
         <h1 className="sub-head">Community</h1>
         <div className="footer-text">
 
@@ -44,12 +44,12 @@ export default function Footer(){
           <p>Newsletter</p>
           </div>
         </div>
-        <div className="foot3">
+        <div className="foot3  ">
             <h1 className="sub-head ">Subscribe Us</h1>
-            <div className="flex ">
-         <input placeholder="enter text" className="h-[46px] border-2 border-[#054FB3] bg-[#2A2A2B]"  type="text" />
+            <div className="flex   ">
+         <input placeholder="enter text" className="h-[46px] lg:w-[180px]  w-[263px] border-2 border-[#054FB3] bg-[#2A2A2B]"  type="text" />
           
-         <button className="bg-oceanblue px-2 lg:text-[14px] h-[46px] text-white">Send Message</button>
+         <button className="bg-oceanblue px-2 text-[14px] h-[46px] text-white">Send Message</button>
             </div>
         </div>
     </div>

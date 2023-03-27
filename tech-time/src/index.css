@@ -8,7 +8,6 @@
  .satoshi,.footer-text,.grey-txt{
   font-family: 'Satoshi', sans-serif;
 
-  
  }
  .social-icon{
   @apply lg:w-[32px] lg:h-[31px]
@@ -39,10 +38,10 @@
   @apply px-4 my-4 p-2 rounded-[2px] bg-oceanblue text-white;
 }
 .pad{
-  @apply rounded-[24px] text-[#A1A1A1] bg-[#ffffff] ;
+  @apply rounded-[24px] lg:text-[14px] lg:w-[100%]  lg:px-3 px-[30px]  text-[10px] text-[#A1A1A1] bg-[#ffffff] ;
 }
 .card{
-  @apply text-left h-[276px] rounded-4xl bg-[#F8F9FC] py-4;
+  @apply text-left h-[276px] rounded-4xl  bg-[#F8F9FC] py-4;
 }
 .courses-card{
   background: rgba(30, 93, 206, 0.2);
@@ -65,7 +64,7 @@
 }
 
 .sub-head{
-  @apply lg:text-[24px] text-[white] py-3 font-semibold;
+  @apply text-[24px] text-[white] py-3 font-semibold;
 }
 .icons-flex{
   @apply  flex satoshi bg-[#FFFFFF] p-3 gap-3 text-left justify-center;
@@ -81,6 +80,9 @@
 }
 .icon{
   @apply w-[38px] rounded-[4px] lg:h-[48px]  h-[32px] lg:w-[32px] text-center p-1 lg:p-2;
+}
+.iconz{
+  @apply w-[33px] rounded-[4px] lg:h-[33px]  h-[32px] lg:w-[32px] text-center p-1 lg:p-2;
 }
 .icon-1{
   background: rgba(63, 169, 106, 0.2);

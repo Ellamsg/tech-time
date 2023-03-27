@@ -47,9 +47,10 @@ export default function Slide() {
   return (
     <div className="bg-[#F8F9FC]  py-6">
       <div className="text-center">
-        <h1 className="heading flex justify-center lg:text-[56px] text-black text-center">what ouer client say</h1>
-        <p className="grey">hdgjgfjnmg fhbgsmbb gjmbbm gjhmgnm fvfgkjnf b fnbmgmmngv b</p>
-        <p className="grey">hdgjgfjnmg fhbgsmbb fhbmmgvknm gjmbbm gjb</p>
+        <h1 className="heading flex justify-center lg:text-[56px] text-black text-center">What Our Client Say</h1>
+        <p className="grey lg:px-[23%]">
+        High-Defination video is video of higher resolution and quality than standard definition. while there’s no standard meaning for high definition, generally any standard video image
+        </p>
       </div>
 
       <Slider className=" flex gap-6 " {...settings}>
@@ -58,10 +59,8 @@ export default function Slide() {
           <div>
             <p className="">
              
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
-              iusto vel, incidunt modi quia provident? Id hic sequi sapiente
-              ipsa dolorem tempore exercitationem iusto, consequatur quod
-              blanditiis, cum ipsum porro!
+            High-Defination Video Is video of higher resolution and quality than standard definition. higher resolution and quality than standard definition.build your future with our quality education. all-in-one online tutoring high-defination video is video of higher resolution and quality than standard definition.
+            the best and largest all-in-one online tutoring platform in the world
             </p>
           </div>
 
@@ -77,13 +76,11 @@ export default function Slide() {
         <div className=" card   ">
         <div className="pad mx-2 p-3 ">
           <div>
-            <p>
+          <p className="">
              
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
-              iusto vel, incidunt modi quia provident? Id hic sequi sapiente
-              ipsa dolorem tempore exercitationem iusto, consequatur quod
-              blanditiis, cum ipsum porro!
-            </p>
+             High-Defination Video Is video of higher resolution and quality than standard definition. higher resolution and quality than standard definition.build your future with our quality education. all-in-one online tutoring high-defination video is video of higher resolution and quality than standard definition.
+             the best and largest all-in-one online tutoring platform in the world
+             </p>
           </div>
 
           <div className=" img-card  ">
@@ -98,13 +95,11 @@ export default function Slide() {
         <div className=" card   ">
         <div className="pad mx-2 p-3 ">
           <div>
-            <p>
+          <p className="">
              
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
-              iusto vel, incidunt modi quia provident? Id hic sequi sapiente
-              ipsa dolorem tempore exercitationem iusto, consequatur quod
-              blanditiis, cum ipsum porro!
-            </p>
+             High-Defination Video Is video of higher resolution and quality than standard definition. higher resolution and quality than standard definition.build your future with our quality education. all-in-one online tutoring high-defination video is video of higher resolution and quality than standard definition.
+             the best and largest all-in-one online tutoring platform in the world
+             </p>
           </div>
 
           <div className=" img-card  ">
@@ -119,13 +114,11 @@ export default function Slide() {
         <div className=" card">
           <div className="pad mx-2 p-3 ">
         <div>
-            <p>
+        <p className="">
              
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
-              iusto vel, incidunt modi quia provident? Id hic sequi sapiente
-              ipsa dolorem tempore exercitationem iusto, consequatur quod
-              blanditiis, cum ipsum porro!
-            </p>
+             High-Defination Video Is video of higher resolution and quality than standard definition. higher resolution and quality than standard definition.build your future with our quality education. all-in-one online tutoring high-defination video is video of higher resolution and quality than standard definition.
+             the best and largest all-in-one online tutoring platform in the world
+             </p>
           </div>
 
           <div className=" img-card  ">

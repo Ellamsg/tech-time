@@ -9,7 +9,7 @@ export default function Community() {
        <h1 className="">Are you ready to connect with the future </h1>
        <h1 className="">talent of the tech world</h1>
        </div>
-      <p className="grey-txt lg:text[16px] text-[8px]">Meet Up With Other Techstars And Grow Together</p>
+      <p className="grey-txt lg:text-[16px] text-[8px]">Meet Up With Other Techstars And Grow Together</p>
          <div className="img  flex justify-center">
             <img src="images/people.png" />
          </div>

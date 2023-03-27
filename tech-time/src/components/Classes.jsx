@@ -9,8 +9,8 @@ export default function Classes() {
           <p>This Is Why We Are Best From Others</p>
           </div>
           <div className="mt-3 lg:w-[87%] lg:p-0 px-[45px] lg:text-left text-center grey mb-3">
-          High-Defination Video Is Video Of Higher Resolution And Quality Than Standard Definition. While There’s No 
-          Standard Meaning For High Definition, Generally Any Standard Video Image
+         <p> High-Defination Video Is Video Of Higher Resolution And Quality Than Standard Definition. While There’s No 
+          Standard Meaning For High Definition, Generally Any Standard Video Image</p>
           </div>
           <div  className="flex justify-center lg:justify-start">
             <img className="w-[610px] lg:p-0 p-3 " src="images/splash2.png" />
