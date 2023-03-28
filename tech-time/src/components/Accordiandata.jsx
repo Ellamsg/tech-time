@@ -2,22 +2,22 @@ export default [
 
 {
     question:"Can i change my plans later?",
-    answer:"jheggh"
+    answer:"lorem ipsum manu west tha daram lem sem fa telum rarum na aram ga ram okay numa say gat say"
 },
 {
     question:"Are the courses lifetime?",
-    answer:"jheggh"
+    answer:"lorem ipsum manu west tha daram lem sem fa telum rarum na aram ga ram okay numa say gat say"
 },
 {
     question:"Do i get certified after taking courses?",
-    answer:"jheggh"
+    answer:"lorem ipsum manu west tha daram lem sem fa telum rarum na aram ga ram okay numa say gat say"
 },
 {
     question:"How do i reach out to mentors?",
-    answer:"jheggh"
+    answer:"lorem ipsum manu west tha daram lem sem fa telum rarum na aram ga ram okay numa say gat say"
 },
 {
     question:"Do we get joob ready after taking courses?",
-    answer:"jheggh"
+    answer:"lorem ipsum manu west tha daram lem sem fa telum rarum na aram ga ram okay numa say gat say"
 },
 ]

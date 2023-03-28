@@ -62,7 +62,19 @@
 
   @apply w-[50px] lg:w-[200px]  object-contain;
 }
+input::placeholder{
+  color:  #424141;
+  padding: 10px;
+  font-size: 12px;
+  font-family: 'Satoshi', sans-serif;
+}
+input{
+  border-radius: 2px 0px 0px 2px;
+}
+.input-btn{
+  border-radius: 0px 2px 2px 0px;
 
+}
 .sub-head{
   @apply text-[24px] text-[white] py-3 font-semibold;
 }

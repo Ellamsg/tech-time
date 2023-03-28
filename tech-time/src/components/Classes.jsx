@@ -9,7 +9,7 @@ export default function Classes() {
         <img className="right-0 lg:w-[26px] w-[10px] top-[700px] lg:right-3 lg:bottom-0 absolute z-10" src="images/round-pup.png"/>
         <div className="div-1">
           <div className="heading lg:px-0 px-1">
-          <p>This Is Why We Are Best From Others</p>
+          <p className="lg:w-[100%] ">This Is Why We Are Best From Others</p>
           </div>
           <div className="mt-3 lg:w-[87%] lg:p-0 px-[45px] lg:text-left text-center grey mb-3">
          <p> High-Defination Video Is Video Of Higher Resolution And Quality Than Standard Definition. While There’s No 

@@ -14,9 +14,9 @@ export default function Videoclasses(){
             <p>High quality video,audio & live classes</p>
         </div>
         <div className="satoshi lg:text-left text-center  grey">
-            <p>jhhfmbhjgkhskh gjhhgdjk fhghkjs gsdhkG ffgffhgfhghghfh jhsdg</p>
-            <p>jhhfmbhjgkhskh gjhhgdjk fhghkjs fgdhgfhghgvkhjgjhljhjk gsdhkG jhsdg</p>
-            <p>jhhfmb</p>
+            <p>high-defination video is video of higher resolution and quality than standard </p>
+            <p>definition. while there’s Standard Meaning For High Definition,</p>
+            <p> Generally Any Standard Video Image</p>
         </div>
         <div className="flex lg:justify-start justify-center">
         <button className="view-courses">view courses</button>

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+
 export default function Nav() {
   let Links = [
     { name: "Home", link: "/" },
@@ -11,12 +12,12 @@ export default function Nav() {
   ];
   let [open, setOpen] = useState(false);
   return (
-    <div className="md:p-2 bg-oceanblue sticky lg:py-0 py-3 z-10 top-0 md:px-6">
+    <div className="md:p-2 bg-oceanblue z-30 sticky lg:py-0 py-3  top-0 md:px-6">
         
-      <div className=" sticky s  top-0 left-0 md:p-0  lg:text-xl  text-[16px]">
+      <div className=" sticky   top-0 left-0 md:p-0  lg:text-xl  text-[16px]">
         <div className="md:flex items-center md:py-4 justify-between lg:gap-6  ">
-          <div className="md:pl-0 pl-2  text-white">
-            <img src="images/techtime.png" />
+          <div className="md:pl-0 pl-2   text-white">
+           <p className="md:w-[200px] text-[19px] lg:text-[47px] font-[ellams] text-left">Tech time</p>
           </div>
 
           <div
@@ -50,7 +51,7 @@ export default function Nav() {
                 
               ))}
             </div>
-            <button className="bg-red  enroll">Enroll now</button>
+            <button className="bg-red md:my-0 my-3 lg:my-0  enroll">Enroll now</button>
            
           </ul>
         </div>

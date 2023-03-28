@@ -12,6 +12,7 @@ import RootLayouts from "./layouts/RootLayouts";
 
 
 
+
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<RootLayouts />}>
