@@ -13,7 +13,7 @@ export default function Community() {
          <div className="img  flex justify-center">
             <img src="images/people.png" />
          </div>
-         <button className='enroll mt-4 font-bold'>Joint Our Community</button>
+         <button className='enroll mt-4 font-bold'>Join Our Community</button>
       </div>
   
   );

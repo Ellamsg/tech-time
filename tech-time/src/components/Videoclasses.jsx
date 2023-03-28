@@ -6,9 +6,9 @@ export default function Videoclasses(){
    
     return (
    
-    <div className="lg:p-4 lg:pl-[40px]  flex lg:flex-row gap-[10px]  relative   flex-col bg-[#F8F9FC] lg:justify-start  justify-center ">
-        
-     <div className='text-left lg:pl-5  relative '>
+    <div className="lg:p-4 lg:pl-[40px] lg:pt-6 flex lg:flex-row gap-[10px]  relative   flex-col bg-[#F8F9FC] lg:justify-start  justify-center ">
+        <img className="right-0 lg:w-[52px] w-[44px] top-[130px] lg:top-2 absolute z-10" src="images/pups.png"/>
+     <div className='text-left lg:pl-5   relative '>
      <img className="absolute w-[40px] lg:w-[43px] left-0 md:left-4 lg:left-0" src="images/crown.png "/>
         <div className="heading lg:w-[65%] ">
             <p>High quality video,audio & live classes</p>

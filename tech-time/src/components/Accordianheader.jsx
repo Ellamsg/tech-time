@@ -6,7 +6,7 @@ export default function Accordianheader() {
  <div className="">
       <div className="lg:pb-5">
           <p className="heading flex justify-center text-[24px] font-bold  md:py-2">
-            frequently asked question
+            Frequently asked question
           </p>
           <div className="grey lg:px-[17%] lg:text-[16px] py-3  text-[8px]">
             <p>high-defination video is video of higher resolution and quality than standard definition. while there’s no 

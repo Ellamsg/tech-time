@@ -45,10 +45,10 @@ export default function Slide() {
   };
 
   return (
-    <div className="bg-[#F8F9FC]  py-6">
-      <div className="text-center">
+    <div className="bg-[#F8F9FC]  lg:py-6 lg:pb-6">
+      <div className="text-center pb-4">
         <h1 className="heading flex justify-center lg:text-[56px] text-black text-center">What Our Client Say</h1>
-        <p className="grey lg:px-[23%]">
+        <p className="grey px-6 lg:px-[23%]">
         High-Defination video is video of higher resolution and quality than standard definition. while there’s no standard meaning for high definition, generally any standard video image
         </p>
       </div>

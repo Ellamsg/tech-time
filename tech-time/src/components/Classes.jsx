@@ -3,7 +3,10 @@ import React from "react";
 export default function Classes() {
   return (
    
-      <div className="flex-items lg:px-6 bg-[#F8F9FC] flex lg:gap-5 flex-col lg:flex-row text-left  justify-center">
+      <div className="flex-items relative lg:px-6 bg-[#F8F9FC] flex lg:gap-5 flex-col lg:flex-row text-left  justify-center">
+        <img className=" lg:w-[52px] w-[44px] lg:block hidden lg:right-[400px] absolute z-10" src="images/yellow.png"/>
+        <img className="left-0 bottom-5 lg:w-[26px] w-[10px]  lg:left-3 lg:bottom-[100px] absolute z-10" src="images/iangle.png"/>
+        <img className="right-0 lg:w-[26px] w-[10px] top-[700px] lg:right-3 lg:bottom-0 absolute z-10" src="images/round-pup.png"/>
         <div className="div-1">
           <div className="heading lg:px-0 px-1">
           <p>This Is Why We Are Best From Others</p>

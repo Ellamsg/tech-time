@@ -35,7 +35,7 @@
 }
 .view-courses{
 
-  @apply px-4 my-4 p-2 rounded-[2px] bg-oceanblue text-white;
+  @apply px-4 lg:text-[16px] text-[8px] my-4 p-2 rounded-[2px] bg-oceanblue text-white;
 }
 .pad{
   @apply rounded-[24px] lg:text-[14px] lg:w-[100%]  lg:px-3 px-[30px]  text-[10px] text-[#A1A1A1] bg-[#ffffff] ;
@@ -60,7 +60,7 @@
 }
 .fit{
 
-  @apply w-[100px] lg:w-[200px] object-contain;
+  @apply w-[50px] lg:w-[200px]  object-contain;
 }
 
 .sub-head{
@@ -73,7 +73,7 @@
   @apply flex border-b-2 border-black ;
 }
 .enroll{
- @apply bg-white text-oceanblue rounded-[4px] p-2 px-4;
+ @apply bg-white text-oceanblue lg:text-[16px] text-[8px]  rounded-[4px] p-2 px-4;
 }
 .heading{
  @apply lg:text-[56px] pt-4 md:text-[38px] text-[24px] lg:text-left text-center  lg:leading-[70px] ;
