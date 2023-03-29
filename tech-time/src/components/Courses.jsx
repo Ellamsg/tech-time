@@ -35,7 +35,7 @@ export default function Courses(props){
         <div className="div flex pt-2 justify-between">
             <div className="flex  gap-2 text-center">
               <img className="lg:w-[40px] lg:mt-0 mt-1 lg:h-[40px] w-[16px] h-[16px]" src={props.nameImg}/>
-              <p className="pt-2 lg:text-[17px] text-[6px] font-bold">john</p>
+              <p className="pt-2 lg:text-[17px] text-[6px] font-bold">{props.name}</p>
             </div>
             <p className="pt-2 lg:text-[18px] text-[8px] clash font-bold text-[#004DB3]">${props.Price}</p>
         </div>

@@ -2,7 +2,7 @@ export default [
    
     {
         title: "introduction to user research in ux design",
-        location: "2345km away",
+        name: "leonard victor",
         googleMapsUrl: "https://goo.gl/maps/1DGM5WrWnATgkSNB8",
         startDate: "12 Jan, 2021",
         Price: 52.00,
@@ -13,7 +13,7 @@ export default [
     },
     {
         title: "introduction to  new marketing audience ",
-        location: "2345km away",
+        name: "Jeffrey williams",
         googleMapsUrl: "https://goo.gl/maps/1DGM5WrWnATgkSNB8",
         startDate: "12 Jan, 2021",
         Price: 52.00,
@@ -23,7 +23,7 @@ export default [
     },
     {
         title: "introduction to html, css and bootstrap",
-        location: "2345km away",
+        name: "Claretta mason",
         googleMapsUrl: "https://goo.gl/maps/1DGM5WrWnATgkSNB8",
         startDate: "12 Jan, 2021",
         Price: 52.00,
@@ -33,7 +33,7 @@ export default [
     },
     {
         title: "introduction to javascript, git & GitHub",
-        location: "2345km away",
+        name: "Jessica duke",
         googleMapsUrl: "https://goo.gl/maps/1DGM5WrWnATgkSNB8",
         startDate: "12 Jan, 2021",
         Price: 52.00,
@@ -43,7 +43,7 @@ export default [
     },
     {
         title: "introduction to outroom  marketing analysis",
-        location: "2345km away",
+        name: "Samuel jacobs",
         googleMapsUrl: "https://goo.gl/maps/1DGM5WrWnATgkSNB8",
         startDate: "12 Jan, 2021",
         Price: 52.00,
@@ -53,7 +53,7 @@ export default [
     },
     {
         title: "introduction to live  marketing analysis",
-        location: "2345km away",
+        name: "Adam smith",
         googleMapsUrl: "https://goo.gl/maps/1DGM5WrWnATgkSNB8",
         startDate: "12 Jan, 2021",
         Price: 52.00,
